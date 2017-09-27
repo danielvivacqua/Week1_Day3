@@ -24,6 +24,21 @@ namespace Week1_Day3
             //    Console.WriteLine("That makes sense.");
             //}
 
+            Console.WriteLine("What day is today?");
+            string userAnswer = Console.ReadLine();
+
+            if(userAnswer == "Monday")
+            {
+                Console.WriteLine("Back to work.");
+            }
+            else if (userAnswer == "Friday")
+            {
+                Console.WriteLine("TGIF!");
+            }
+            else
+            {
+                Console.WriteLine("Bloop");
+            }
 
 
 
